@@ -1,30 +1,18 @@
-//
-//  DetailsViewController.swift
-//  Elements
-//
-//  Created by Wolfgang on 2/25/20.
-//  Copyright © 2020 Wolfgang's Software Factory. All rights reserved.
-//
-
 import UIKit
 
 class DetailsViewController: UIViewController {
-
+    
+    // field for the element to detail
+    var element = Element()
+    
+    // label to be populated
+    @IBOutlet weak var elelmetDetailsLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        elelmetDetailsLabel.text = element.name
 
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
