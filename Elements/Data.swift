@@ -24,4 +24,12 @@ class Data {
         // return the array
         return elements
     }
+    
+    static func getDetails(element: Element) -> String {
+        var output = "The element \(element.name) has an atomic number of \(element.atomicNumber). The period is \(element.period). Because the atomic number is "
+        output += element.isNatural ? "less than 95, it is a naturally occuring element. "
+            : "more than 94, it is a synthesized element. "
+        output += "By the way, the symbol for \(element.name) is \(element.symbol)."
+        return output
+    }
 }

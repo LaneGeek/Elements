@@ -19,7 +19,7 @@ class ElementsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "elementCell", for: indexPath)
         // get the element name and set the cell's text to it
-        cell.textLabel?.text = elements[indexPath.row].name
+        cell.textLabel?.text = elements[indexPath.row].name + ", " + elements[indexPath.row].symbol
         return cell
     }
     

@@ -1,10 +1,13 @@
 import Foundation
 
 class Element {
+    
+    // properties
     var atomicNumber = 0
     var symbol = ""
     var name = ""
     
+    // computed property
     var period: Int {
         if atomicNumber < 3 {
             return 1
@@ -33,5 +36,6 @@ class Element {
         return 7
     }
     
+    // another computer property
     var isNatural: Bool { atomicNumber < 95 }
 }

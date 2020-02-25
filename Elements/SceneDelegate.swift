@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Elements
-//
-//  Created by Wolfgang on 2/25/20.
-//  Copyright © 2020 Wolfgang's Software Factory. All rights reserved.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

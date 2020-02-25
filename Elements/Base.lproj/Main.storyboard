@@ -65,17 +65,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eg-ml-RlI">
-                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eg-ml-RlI">
+                                <rect key="frame" x="50" y="138" width="314" height="674"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="7eg-ml-RlI" firstAttribute="centerX" secondItem="ZxF-Be-Nog" secondAttribute="centerX" id="4fa-yC-Ben"/>
-                            <constraint firstItem="7eg-ml-RlI" firstAttribute="centerY" secondItem="ZxF-Be-Nog" secondAttribute="centerY" id="bck-GP-9wj"/>
+                            <constraint firstItem="7eg-ml-RlI" firstAttribute="top" secondItem="1g0-Un-yRw" secondAttribute="top" constant="50" id="1eG-2q-if9"/>
+                            <constraint firstItem="7eg-ml-RlI" firstAttribute="leading" secondItem="1g0-Un-yRw" secondAttribute="leading" constant="50" id="9je-Cn-I0w"/>
+                            <constraint firstItem="1g0-Un-yRw" firstAttribute="bottom" secondItem="7eg-ml-RlI" secondAttribute="bottom" constant="50" id="LAL-eL-oak"/>
+                            <constraint firstItem="1g0-Un-yRw" firstAttribute="trailing" secondItem="7eg-ml-RlI" secondAttribute="trailing" constant="50" id="Shy-aE-S94"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1g0-Un-yRw"/>
                     </view>
